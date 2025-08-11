@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RecipeDetail from "./pages/RecipeDetail";
 import Home from "./pages/Home";
@@ -6,7 +6,7 @@ import NotFound from "./pages/NotFound";
 import AllRecipes from "./pages/AllRecipes";
 
 function App() {
-  const [count, setCount] = useState(0);
+  //Define the routes for the application
   const recipeHomeRouter = createBrowserRouter([
     {
       path: "/",

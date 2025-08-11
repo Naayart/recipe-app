@@ -4,7 +4,7 @@ import RecipeCard from "../components/RecipeCard";
 import JollofRice from "../assets/images/jollof.jpg";
 import PepperoniPizza from "../assets/images/pizza.jpg";
 import CaesarSalad from "../assets/images/salad.jpg";
-import EgusiSoup from "../assets/images/egusi.jpeg"; 
+import EgusiSoup from "../assets/images/Egusi.jpeg"; 
 import FriedRice from "../assets/images/fried-rice.jpg"; 
 import ChickenAlfredo from "../assets/images/chicken-alfredo.jpg"; 
 
@@ -27,7 +27,6 @@ export default function AllRecipes() {
   return (
     <>
       <Navbar />
-
       <section className="py-12 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-800 mb-6">All Recipes</h1>
