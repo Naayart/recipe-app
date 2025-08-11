@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import JollofRice from "../assets/images/jollof.jpg";
 import PepperoniPizza from "../assets/images/pizza.jpg";
 import CaesarSalad from "../assets/images/salad.jpg";
-import EgusiSoup from "../assets/images/egusi.jpeg";
+import EgusiSoup from "../assets/images/Egusi.jpeg";
 import FriedRice from "../assets/images/fried-rice.jpg";
 import ChickenAlfredo from "../assets/images/chicken-alfredo.jpg";
 
