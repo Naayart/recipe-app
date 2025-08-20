@@ -10,7 +10,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "All Recipes", path: "/all-recipes" },
-    { name: "Favorites", path: "/favorites" },
+    { name: "Favourites", path: "/favourites" },
   ];
 
   return (

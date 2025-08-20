@@ -4,6 +4,7 @@ import RecipeDetail from "./pages/RecipeDetail";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import AllRecipes from "./pages/AllRecipes";
+import Favourites from "./pages/Favourites";
 
 function App() {
   //Define the routes for the application
@@ -20,6 +21,8 @@ function App() {
       path: "/all-recipe/:id",
       element: <RecipeDetail />,
     },
+
+    { path: "favourites", element: <Favourites /> },
     { path: "*", element: <NotFound /> },
   ]);
 

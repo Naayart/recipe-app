@@ -11,6 +11,8 @@ const popularRecipes = [
 ];
 
 export default function PopularRecipes(){
+
+  
   return (
     <section className="py-12 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
